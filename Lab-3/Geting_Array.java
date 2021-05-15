@@ -1,25 +1,9 @@
 import java.util.Scanner;
 
-class Finding_min_value_in_array
+class Geting_Array
 {
-    public static int min(int a[])
+    public static int[] number()
     {
-        int min = a[0];
-
-        for (int i = 0; i <a.length; i++)
-        {
-            if(min > a[i])
-            
-            {
-                min = a[i];
-            }
-        }
-        return min;
-    }
-    
-    public static void main(String[] args)
-    {
-        
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of array: ");
         int size = sc.nextInt();
@@ -34,9 +18,21 @@ class Finding_min_value_in_array
             System.out.print(">> ");
             a[i] = sc.nextInt();
         }
-        int result = min(a);
-        System.out.println("Minimum element in Array is : " + result);
-
         sc.close();
+        return a;
+    }
+    
+    public static void main(String[] args)
+    {
+        
+       int b[] = number();
+
+        System.out.print("Array is: ");
+
+        for (int i = 0; i <b.length; i++)
+        {
+            System.out.print(b[i] + " ");
+            
+        }
     }
 }
