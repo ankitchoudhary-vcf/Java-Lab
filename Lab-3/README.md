@@ -13,3 +13,5 @@ array name = new datatype[size]
 
 eg:-
 int a[] = new int[n]
+
+Anonymous Array:- It is name less array.
