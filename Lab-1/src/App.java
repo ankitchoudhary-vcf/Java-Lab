@@ -25,40 +25,40 @@ public class App {
 
         // Armstrong Number program
 
-        // Scanner in = new Scanner(System.in);
-        // System.out.println("Enter the Number:-");
-        // int n = in.nextInt();
-        // int copyN = n;
-        // int result = 0;
-        // int length = String.valueOf(n).length();
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the Number:-");
+        int n = in.nextInt();
+        int copyN = n;
+        int result = 0;
+        int length = String.valueOf(n).length();
 
-        // while (copyN != 0) {
-        // int d = copyN % 10;
-        // copyN /= 10;
-        // result += Math.pow(d, length);
-        // }
+        while (copyN != 0) {
+        int d = copyN % 10;
+        copyN /= 10;
+        result += Math.pow(d, length);
+        }
 
-        // if (result == n) {
-        // System.out.println("Is Armstrong Number");
-        // } else {
-        // System.out.println("Not a Armstrong Number");
-        // }
+        if (result == n) {
+        System.out.println("Is Armstrong Number");
+        } else {
+        System.out.println("Not a Armstrong Number");
+        }
 
         // Fibonacci Series
 
-        Scanner in = new Scanner(System.in);
-        System.out.println("Enter the Number:-");
-        int j = in.nextInt();
-        int t1 = 0, t2 = 1;
-        System.out.println("First " + j + " terms: ");
+        // Scanner in = new Scanner(System.in);
+        // System.out.println("Enter the Number:-");
+        // int j = in.nextInt();
+        // int t1 = 0, t2 = 1;
+        // System.out.println("First " + j + " terms: ");
 
-        for (int i = 1; i <= j; ++i) {
-            System.out.print(t1 + "  ");
+        // for (int i = 1; i <= j; ++i) {
+        //     System.out.print(t1 + "  ");
 
-            int sum = t1 + t2;
-            t1 = t2;
-            t2 = sum;
-        }
+        //     int sum = t1 + t2;
+        //     t1 = t2;
+        //     t2 = sum;
+        // }
 
     }
 }
