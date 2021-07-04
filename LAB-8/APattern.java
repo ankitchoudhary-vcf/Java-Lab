@@ -19,8 +19,8 @@ public class APattern
             // }  
             // System.out.println();  
 
-            for(j=0; j<n; j++){
-                if((j==0 || j==n-1 || i==0 || i==n/2))
+            for(j=0; j<=n/2; j++){
+                if((j==0 || j==n/2 || i==0 || i==n/2))
                 {
                     System.out.print("* ");
                 }
