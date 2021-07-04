@@ -12,13 +12,13 @@ public class DiamondPattern
         {  
             for (i = 1; i<= space; i++)  
             {  
-                System.out.print(" ");  
+                System.out.print("  ");  
             }  
 
             space--;  
             for (i = 1; i <= 2 * j - 1; i++)  
             {  
-                System.out.print("*");  
+                System.out.print("* ");  
             }  
 
             System.out.println("");  
@@ -30,13 +30,13 @@ public class DiamondPattern
         {  
             for (i = 1; i<= space; i++)  
             {  
-                System.out.print(" ");  
+                System.out.print("  ");  
             }  
 
             space++;  
             for (i = 1; i<= 2 * (row - j) - 1; i++)  
             {  
-                System.out.print("*");  
+                System.out.print("* ");  
             }  
             
             System.out.println("");  
