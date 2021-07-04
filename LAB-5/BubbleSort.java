@@ -46,5 +46,6 @@ class BubbleSort
         ob.bubbleSort(arr);
         System.out.print("Sorted array is:- ");
         ob.printArray(arr);
+        sc.close();
     }
 }

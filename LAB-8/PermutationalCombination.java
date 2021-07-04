@@ -47,5 +47,6 @@ class PermutationalCombination
 		else
 			System.out.println("n value should be greater than or equals to r value");
 		
+		sc.close();
 	}	
 }

@@ -30,6 +30,6 @@ class Array_Implementation
         {
             System.out.print(i + " ");
         }
-
+        sc.close();
     }
 }

@@ -6,9 +6,9 @@ public class App {
 
         // Palindrome Number program
 
-        // Scanner in = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the Number:-");
-        // int n = in.nextInt();
+        // int n = sc.nextInt();
         // int copyN = n;
         // int reverse = 0;
         // while (copyN != 0) {
@@ -25,9 +25,9 @@ public class App {
 
         // Armstrong Number program
 
-        Scanner in = new Scanner(System.in);
+        Scanner sn = new Scanner(System.in);
         System.out.println("Enter the Number:-");
-        int n = in.nextInt();
+        int n = sn.nextInt();
         int copyN = n;
         int result = 0;
         int length = String.valueOf(n).length();
@@ -43,10 +43,11 @@ public class App {
         } else {
         System.out.println("Not a Armstrong Number");
         }
+        sn.close();
 
         // Fibonacci Series
 
-        // Scanner in = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
         // System.out.println("Enter the Number:-");
         // int j = in.nextInt();
         // int t1 = 0, t2 = 1;

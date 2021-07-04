@@ -1,7 +1,5 @@
 
 
-import java.util.*;
-
 class OverloadingMain {
     public static void main(String[] args)
     {

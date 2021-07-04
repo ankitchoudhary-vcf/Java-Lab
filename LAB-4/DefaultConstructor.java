@@ -10,6 +10,6 @@ class DefaultConstructor
 
     public static void main(String[] args)
     {
-        DefaultConstructor b = new DefaultConstructor();
+        new DefaultConstructor();
     }
 }
