@@ -2,7 +2,7 @@
 public class Students {
     String name;
     Students() {
-        this.name = "unknown";
+        this.name = "Unknown";
         PrintName();
     }
     Students(String name) {
