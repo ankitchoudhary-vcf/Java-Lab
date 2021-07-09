@@ -1,14 +1,14 @@
 
-abstract class Bike {
+abstract class HBike {
     abstract void run();
 }
 
-class Test extends Bike {
+class Test extends HBike {
     void run() {
         System.out.println("Running Safely");
     }
     public static void main(String[] args) {
-        Bike obj = new Test();
+        HBike obj = new Test();
         obj.run();
     }
 }
