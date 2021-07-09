@@ -1,10 +1,6 @@
-
-
 interface Printable {
     void Print();
 }
-
-
 class interface_example implements Printable{
     
     public void Print() {
