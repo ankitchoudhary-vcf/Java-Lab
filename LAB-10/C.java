@@ -8,6 +8,9 @@ class A extends P {
     void message(){
         System.out.println("This is first subclass");
     }
+
+    public interface Messaging {
+    }
 }
 
 class B extends P {
